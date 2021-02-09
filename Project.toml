@@ -1,0 +1,13 @@
+name = "Brain"
+uuid = "e8e24e64-a461-4c7e-a893-3d010070cbe8"
+authors = ["Pang Hao"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
