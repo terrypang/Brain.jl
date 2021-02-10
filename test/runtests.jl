@@ -1,6 +1,2 @@
-using Brain
-using Test
-
-@testset "Brain.jl" begin
-    # Write your tests here.
-end
+using SafeTestsets
+@safetestset "My f tests" begin include("my_f_tests.jl") end
